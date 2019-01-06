@@ -7,7 +7,7 @@ Christoph
 
 This folder contains the conversion script and the data related to the course project of Coursera course "Getting and Cleaning data".
 The project is based on the UCI HAR dataset. This dataset contains 3dimensional movement information recorded by a Smartphone. The data were collected during six different activities which were executed by 30 different volunteers.
-Within the project, the dataset was converted to a new dataset conforming to the following requirements:
+Within the project, the dataset was converted to a new dataset "UCI_HAR_Dataset_converted" conforming to the following requirements:
 
 1. The submitted data set is tidy.
 2. The Github repo contains the required scripts.
