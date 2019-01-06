@@ -68,10 +68,10 @@ sum_avg_vars<-summarize_at(avg_var, as.character(sel_feature_names), funs(mean))
 #Append "_avg" to all columns with averaged value
 avg_col_names<-colnames(sum_avg_vars)
 avg_value_cols<-seq(3,68)
-avg_col_names[avg_value_cols]<-paste(avg_col_names[avg_value_cols], "_avg")
+avg_col_names[avg_value_cols]<-paste(avg_col_names[avg_value_cols], "_avg", sep="")
 colnames(sum_avg_vars)<-avg_col_names
 
 # write averages to addtional csv file (cleaned_features_averages.csv)
 write.csv(sum_avg_vars, "./UCI_HAR_Dataset_converted/cleaned_features_averages.csv", row.names=FALSE)
-
+write.table(sum_avg_vars, "./UCI_HAR_Dataset_converted/cleaned_features_averages_txt.txt", row.names=FALSE)
 

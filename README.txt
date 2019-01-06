@@ -30,5 +30,5 @@ This folder contains the following files:
 - 'CodeBook.md': The codebook in md format
 - 'run_analysis.r': The conversion script performing read-in, conversion and writing of the UCI HAR Dataset to a new one, conforming to the above mentioned points
 - Folder 'UCI HAR Dataset': The source dataset. See contained README for detailed description
-- Folder 'UCI_HAR_Dataset_converted': The resulting dataset. Consists of the two files cleaned_features.csv and cleaned_features_averages.csv. See codebook for more detailed explanation. 
+- Folder 'UCI_HAR_Dataset_converted': The resulting dataset. Consists of the two files cleaned_features.csv and cleaned_features_averages.csv. See codebook for more detailed explanation. Amendmend: cleaned_features_averages.csv is also provided as txt file cleaned_features_averages_txt.txt, because we were asked to do so in the assignment description.
 
