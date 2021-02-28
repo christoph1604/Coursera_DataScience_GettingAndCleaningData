@@ -5,7 +5,7 @@ Coursera course: Getting and cleaning data - Course Project, Version 1.0
 ### Summary
 
 This folder contains the conversion script and the data related to the course project of Coursera course "Getting and Cleaning data".
-The project is based on the UCI HAR dataset. This dataset contains 3dimensional movement information recorded by a Smartphone. The data were collected during six different activities which were executed by 30 different volunteers.
+The project is based on the UCI HAR dataset. This dataset contains 3-dimensional movement information recorded by a Smartphone. The data were collected during six different activities which were executed by 30 different volunteers.
 Within the project, the dataset was converted to a new dataset "UCI_HAR_Dataset_converted" conforming to the below listed requirements.
 
 ### Detailed requirements
@@ -18,7 +18,7 @@ Within the project, the dataset was converted to a new dataset "UCI_HAR_Dataset_
 4. The README that explains the analysis files is clear and understandable.
 5. The work submitted for this project is the work of the student who submitted it.
 
-The following requirements were given to the script executing the conversion:
+The following requirements concerning the conversion script were given:
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
